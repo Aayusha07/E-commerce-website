@@ -1,0 +1,76 @@
+
+/*--------------------this css is for the slider on the references page----------------------*/
+/*--------------container for the slider-------------------*/
+.containslide {
+  max-width: 1100px;
+  position: relative;
+  border: 5px solid #ffffffd7;
+  border-radius: 15px;
+}
+
+/*---------------styling for the caption text-----------------------*/
+.captext {
+  background-color:#271919;
+  color: #f0dfdf;
+  font-size: 15px;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+}
+
+/*-------------------the dot indicator at the bottom of the slider--------------*/
+.dot {
+  background-color: rgb(139, 93, 93);
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  border-radius: 30%;
+}
+
+.active, .dot:hover {
+  background-color: #95eaf0;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+.prevbtn{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.nextbtn{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(202, 46, 46);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/*-------hover effect on preview and next button--------------------*/
+.prevbtn:hover, .nextbtn:hover {
+  background-color: rgba(0,0,0,0.8);
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-------meta tags----------------->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="blogpost page">
+    <meta name="keywords" content="blog, post, author">
+    <meta name="author" content="Aayusha">
+    <!-----------linking css files------------------>
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/blogpost.css">
+    <title>Blog</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+           <a href="index.html"><img src="images/LogoMakr-3zgofk.png" width="155px"></a>
+        </div>
+       <nav>
+           <ul id="MenuItems">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="product.html">Products</a></li>
+               <li><a href="#">Blog</a></li>
+               <li><a href="contact.html">Contact</a></li>
+               <li><a href="research.html">References</a></li>
+           </ul>
+       </nav>   
+    <a href="cart.html"><img src="images/cartt.png" width="30px" height="30px"></a>
+       <img src="images/menu.png" class="menu-icon"
+        onclick="menutoggle()">
+    </div>
+
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="post-img">
+        <img src="images/next-min.jpg" alt="">
+    </div>
+    <div class="m-auto blog-post-content max-width-2 m-auto my-2">
+        <h1 class="font1">Technology and its impact on<br> Our Daily lives</h1>
+        <div class="blogpost-meta">
+            <div class="author-info">
+                <div>
+                <b>
+                  Author - Aayusha Lamichhane
+                </b>
+                </div>
+                <div>14 January. 6 min read</div>
+            </div>
+           
+        </div>
+         <p class="font1">Technology sure has become almost every aspect of our daily life now. Technology has made impact on almost every realm now from communication to education to shopping and the list goes on. Modern technology has paved its way for multi-functional devices like smartphone and smartwatches. A lot of changes have happened due to technology and now I cannot imagine  my life without one. Even every corner of our house is surrounded with some kind of technical devices. Technology has almost become like a adventure because we donot know what's coming next on our step ahead. With each day passing we see technology even growing bigger and stronger. May be technology will shape our future in a better way but who knows. Thats a question.</p>
+         <p class="font1">There's a term "Every thing comes with a price". Sure, technology has made our life easier and now we cannot imagine our life without one but at what cost? Teens, Aduls, old nowadays they all are busy with their phones gadgets that makes communication hard as in person. We may connet with people living across the globe but the person near us have become distant to us. It's a way or prospective to look at it but if we utilize it fully  we may not even need college degree because everything on internet these days. Theres no limit to learning, enjoying and living. Theres so much happening around the globe with the use of internet. People are making flying scooter to a human version robot.</p>
+         <p class="font1">For all the people who are shopoholic or shopping addicted technology sure has made them fell over the moon beacuse of onlone shopping to delivering their goods to their door steps. Even if we are not in our home they just deliver it right to our doorstep all made possible beacuse of technology. But the risk in here is in online payment many have faced this problem-they pay but they never receive their goods because of unsecured payment. Technology has taught us to become little more careful while using it. </p>
+         <p class="font1">While the techonolgy revolution has made our life easy, it has turnes us into lazy human being. Today we can say that the world is at our fingertips bacause every thing can happen with a tap on the phone.Today Artificial Intelligence has turned science fiction into reality. The advanced drone, high resolution picture,, tracking system-these are what advancement is all about.</p>
+    </div>
+
+    <div class="max-width-1 m-auto"><hr></div>
+    <div class="home-articles max-width-1 m-auto font2">
+        <h2>People who read this also read</h2>
+        <div class="row">
+        <div class="home-article more-post">
+            <div class="home-article-img">
+                <img src="images/oppo1.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1 center">
+                <a href="/blogpost.html"><h3>Learn more about Smartwatches with their new functionss</h3></a>
+                
+                <div>Yadi</div>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+       
+        
+        
+    </div>
+    </div>
+<!--------------------footer section----------------------------------------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">&copy; Copyright 2022 - BubbleTech</p>
+        </div>
+    </div>
+<!------------------JavaScript for menu------------------------------------------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxBlockSize = "200px";
+            }else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
